@@ -26,11 +26,7 @@ def splash():
 
 
     print ""
-    username = raw_input("     Presiona una tecla para continuar con la verificacion de whatsapp")
-
-
-
-
+    wt = raw_input("     Presiona una tecla para continuar con la verificacion de whatsapp ")
 
 
 
@@ -42,14 +38,14 @@ def openBrowser():
 
 def login(driver):
 
-    path="/home/tux/MCanon/memes/"
+    path=os.path.dirname(os.path.abspath(__file__))
 
 
 
     try:
         driver.get("https://web.whatsapp.com/")
         print "Scan the qr"
-        sec = input('Select the target and pres enter when you are ready.\n')
+        sec = raw_input('Select the target and pres enter when you are ready .\n')
 
         entries = os.listdir('memes/')
         index=0
@@ -57,7 +53,7 @@ def login(driver):
         buffer=[]
         for entry in entries:
 
-            if bufferIndex < 10:
+            if bufferIndex < 20:
                 file=path+entry
                 buffer.append(file)
                 bufferIndex+=1
@@ -65,15 +61,15 @@ def login(driver):
             else:
                 bufferIndex=0
 
-                print "Sending file ",index+1,"/",len(entries)
+                print "Sending file ",index,"/",len(entries)
                 driver.find_element_by_css_selector("span[data-icon='clip']").click();
 
                 time.sleep(1)
 
                 image_box = driver.find_element_by_xpath('//input[@accept="image/*,video/mp4,video/3gpp,video/quicktime"]')
-                image_box.send_keys(buffer[0],"\n",buffer[1],"\n",buffer[2],"\n",buffer[3],"\n",buffer[4],"\n",buffer[5],"\n",buffer[6],"\n",buffer[7],"\n",buffer[8],"\n",buffer[9])
-                time.sleep(1)
-                print file
+                image_box.send_keys(buffer[0],"\n",buffer[1],"\n",buffer[2],"\n",buffer[3],"\n",buffer[4],"\n",buffer[5],"\n",buffer[6],"\n",buffer[7],"\n",buffer[8],"\n",buffer[9],
+                                    buffer[10],"\n",buffer[11],"\n",buffer[12],"\n",buffer[13],"\n",buffer[14],"\n",buffer[15],"\n",buffer[16],"\n",buffer[17],"\n",buffer[18],"\n",buffer[19])
+                time.sleep(3)
                 driver.find_element_by_css_selector("span[data-icon='send']").click();
                 time.sleep(1)
                 index += 10

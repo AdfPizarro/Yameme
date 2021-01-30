@@ -989,3 +989,45 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1611629912242	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://web.whatsapp.com/app.eb2b27c260683f39a1e0.js, line 1: unreachable code after return statement
 JavaScript warning: https://web.whatsapp.com/app.eb2b27c260683f39a1e0.js, line 1: unreachable code after return statement
+1611965053887	geckodriver	INFO	Listening on 127.0.0.1:53737
+1611965054714	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCk7v0s"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611965056370	Marionette	INFO	Listening on port 33733
+1611965056453	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.9ebaf8d75cf092615dcc.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.9ebaf8d75cf092615dcc.js, line 1: unreachable code after return statement
+1611965095899	Marionette	INFO	Stopped listening on port 33733
+1611965102178	geckodriver	INFO	Listening on 127.0.0.1:37543
+1611965102182	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenopyg5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611965103601	Marionette	INFO	Listening on port 34299
+1611965103702	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.9ebaf8d75cf092615dcc.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.9ebaf8d75cf092615dcc.js, line 1: unreachable code after return statement
+1611966135071	geckodriver	INFO	Listening on 127.0.0.1:41491
+1611966135086	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileB34D1z"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611966136480	Marionette	INFO	Listening on port 38397
+1611966136506	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.9ebaf8d75cf092615dcc.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.9ebaf8d75cf092615dcc.js, line 1: unreachable code after return statement
+1611966281826	Marionette	INFO	Stopped listening on port 34299
+1611967699615	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1611967722725	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
